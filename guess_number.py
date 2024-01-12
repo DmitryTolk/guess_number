@@ -11,7 +11,7 @@ while True:
     guess = int(input('Введите число: '))
     
     # Если число меньше загаданного...
-    elifif guess < number:
+    elif guess < number:
         # ...выводим сообщение.
         print('Ваше число меньше того, что загадано.')
     
